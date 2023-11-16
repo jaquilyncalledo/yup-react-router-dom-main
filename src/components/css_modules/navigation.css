@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+  background-color:black; /* Choose a background color for the navbar */
+  padding: 15px;
+  color: white;
+  text-align: center;
+}
+
+.sidebar {
+  width: 200px;
+  height: 100vh; /* Adjust the height based on your needs */
+  background-color: #4caf50; /* Choose a background color for the sidebar */
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  position: fixed;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #fff; /* Adjust the color as needed */
+  font-size: 16px;
+}
+
+.nav-link:hover {
+  color: #ffeb3b; /* Change the color on hover if desired */
+}
